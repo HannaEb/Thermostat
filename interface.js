@@ -1,7 +1,6 @@
 $(document).ready(function(){
   var thermostat = new Thermostat();
   updateTemperature();
-
   displayWeather('London');
 
   $('#select-city').submit(function(event){
